@@ -41,8 +41,8 @@ The following table lists the configurable parameters with their default values.
 | subscription_id_VV          | ID of Subscription       |         | string | Yes      |    
 | subscription_name_VV        | Name of Subscription     |         | string | Yes      |  
 | tenant_id_VV                | description ID of Tenant |         | string | Yes      |   
-| elastic_pool_name           | Name of elastic pool     |         | string | Yes      |  
-| resource_id                 | Name of resource         |         | string | Yes      |   
+| elastic_pool_name_VV        | Name of elastic pool     |         | string | Yes      |  
+| resource_id_VV              | Name of resource         |         | string | Yes      |   
 
 
 ---

@@ -43,12 +43,12 @@ variable "tenant_id_VV" {
   description = "ID of Tenant"
 }
 
-variable "elastic_pool_name" {
+variable "elastic_pool_name_VV" {
   type        = string
   description = "Name of elastic pool"
 }
 
-variable "resource_id" {
+variable "resource_id_VV" {
   type        = string
   description = "Name of resource"
 }

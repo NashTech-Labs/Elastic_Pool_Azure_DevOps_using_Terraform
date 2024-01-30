@@ -21,10 +21,10 @@ resource "azuredevops_serviceendpoint_azurerm" "service_endpoint" {
 }
 
 resource "azuredevops_elastic_pool" "elastic_pool" {
-  name                   = var.elastic_pool_name
+  name                   = var.elastic_pool_name_VV
   service_endpoint_id    = azuredevops_serviceendpoint_azurerm.example.id
   service_endpoint_scope = azuredevops_project.example.id
   desired_idle           = 2
   max_capacity           = 3
-  azure_resource_id      = var.resource_id
+  azure_resource_id      = var.resource_id_VV
 }
